@@ -4,6 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HRPR2WYLQ6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HRPR2WYLQ6');
+  </script>
+
+  <link rel="icon" type="image/jpeg" href="{{ '/assets/favicon.jpeg' | relative_url }}">
 
 <!-- Import Poppins and Lora from Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

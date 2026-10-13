@@ -1,0 +1,13 @@
+title: My Webpage
+email: karapsot@gmail.com
+description: Computer Vision and Machine Learning Engineer
+baseurl: "" # the subpath of your site, e.g. /blog
+domain: sspsk.github.io
+url: https://sspsk.github.io # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  sspsk
+
+collections:
+  publications:
+    output: false
+  projects:
+    output: false
